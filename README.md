@@ -1,77 +1,77 @@
-# Análisis de los 100 Videos Más Populares de Tecnología en BiliBili 🖥️📊
+# Analysis of the Top 100 Most Popular Technology Videos on BiliBili 🖥️📊
 
-Este proyecto realiza un análisis de los 100 videos más populares en la categoría de tecnología en BiliBili, una de las principales plataformas de video de China. Se utiliza **web scraping** para obtener los datos y **Python** para procesarlos y analizarlos.
+This project analyzes the top 100 most popular videos in the technology category on BiliBili, one of the leading video platforms in China. **Web scraping** is used to collect the data, and **Python** is used for processing and analysis.
 
-## Descripción 📄
+## Description 📄
 
-El objetivo de este proyecto es analizar el comportamiento de los videos de tecnología más vistos en BiliBili, extrayendo información como:
+The goal of this project is to analyze the behavior of the most-viewed technology videos on BiliBili, extracting information such as:
 
-- Títulos de los videos.
-- Número de vistas, likes y comentarios.
-- Fecha de publicación.
-- Categorías y etiquetas más comunes.
+- Video titles.
+- Number of views, likes, and comments.
+- Publication date.
+- Common categories and tags.
 
-Los datos se obtuvieron utilizando técnicas de **web scraping** con **BeautifulSoup** y **Requests**. Posteriormente, los datos fueron analizados en un **Jupyter Notebook**, donde se realizaron visualizaciones y estadísticas descriptivas.
+The data was obtained using **web scraping** techniques with **BeautifulSoup** and **Requests**. Subsequently, the data was analyzed in a **Jupyter Notebook**, where visualizations and descriptive statistics were performed.
 
-## Estructura del Proyecto 📂
+## Project Structure 📂
 
-- **BiliBili_Project.ipynb**: Jupyter Notebook con el análisis completo.
-- **requirements.txt**: Archivo con las dependencias necesarias para ejecutar el proyecto.
-- **README.md**: Este archivo, con la descripción y las instrucciones del proyecto.
+- **BiliBili_Project.ipynb**: Jupyter Notebook with the complete analysis.
+- **requirements.txt**: File containing the dependencies required to run the project.
+- **README.md**: This file, with the project description and instructions.
 
-## Herramientas Utilizadas 🚧
+## Tools Used 🚧
 
-- **Python**: Lenguaje principal para el scraping y el análisis.
-- **Jupyter Notebook**: Para desarrollar el análisis de manera interactiva.
-- **BeautifulSoup**: Para extraer datos de las páginas de BiliBili.
-- **Requests**: Para realizar las solicitudes HTTP y obtener el HTML.
-- **Pandas**: Para manipulación y análisis de los datos.
-- **Matplotlib/Seaborn**: Para las visualizaciones.
+- **Python**: Main language for scraping and analysis.
+- **Jupyter Notebook**: For developing the analysis interactively.
+- **BeautifulSoup**: For extracting data from BiliBili pages.
+- **Requests**: For making HTTP requests and obtaining the HTML.
+- **Pandas**: For data manipulation and analysis.
+- **Matplotlib/Seaborn**: For visualizations.
 
-## Instrucciones de Instalación ⚙️
+## Installation Instructions ⚙️
 
-Para ejecutar este proyecto en tu propio entorno, sigue los siguientes pasos:
+To run this project in your own environment, follow these steps:
 
-1. Clona el repositorio:
+1. Clone the repository:
    ```bash
-   git clone https://github.com/tu-usuario/nombre-del-repositorio.git
-   cd nombre-del-repositorio
+   git clone https://github.com/your-username/repository-name.git
+   cd repository-name
    ```
 
-2. Crea un entorno virtual (opcional pero recomendado):
+2. Create a virtual environment (optional but recommended):
    ```bash
    python -m venv env
-   source env/bin/activate  # En Windows usa `env\Scripts\activate`
+   source env/bin/activate  # On Windows use `env\Scripts\activate`
    ```
 
-3. Instala las dependencias:
+3. Install the dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-4. Abre el Jupyter Notebook:
+4. Open the Jupyter Notebook:
    ```bash
    jupyter notebook BiliBili_Project.ipynb
    ```
 
-## Resultados 🏆
+## Results 🏆
 
-El análisis ofrece insights sobre:
+The analysis provides insights on:
 
-- Las temáticas más populares en los videos de tecnología.
-- La relación entre la duración del video y el número de visualizaciones.
-- El comportamiento de los usuarios en términos de likes, comentarios y shares.
+- The most popular topics in technology videos.
+- The relationship between video duration and the number of views.
+- User behavior in terms of likes, comments, and shares.
 
-## Próximos Pasos 🚀
+## Next Steps 🚀
 
-- Ampliar el análisis para incluir otras categorías populares en BiliBili.
-- Implementar más técnicas de scraping para obtener datos adicionales como la descripción del video o los comentarios destacados.
-- Automatizar el proceso de scraping para actualizar los datos regularmente.
+- Expand the analysis to include other popular categories on BiliBili.
+- Implement more scraping techniques to collect additional data such as video descriptions or highlighted comments.
+- Automate the scraping process to update the data regularly.
 
-## Contribuciones 🤝
+## Contributions 🤝
 
-Las contribuciones son bienvenidas. Si tienes sugerencias, mejoras o encuentras algún problema, no dudes en abrir un "issue" o enviar un "pull request".
+Contributions are welcome. If you have suggestions, improvements, or find any issues, feel free to open an issue or submit a pull request.
 
-## Licencia 📜
+## License 📜
 
-Este proyecto está bajo la licencia MIT. Puedes ver los detalles en el archivo `LICENSE`.
+This project is licensed under the MIT License. See the `LICENSE` file for details.
